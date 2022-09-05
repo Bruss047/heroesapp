@@ -1,0 +1,92 @@
+//Components:
+@import './components/initialScreen';
+@import './components/searchScreen';
+@import './components/heroeScreenDetail';
+
+
+$baseColor: #e63946;
+$yellow: rgb(214, 200, 1);
+
+
+body {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 1.4em;
+    background-color: $baseColor;
+
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 9px #050201;
+    color: $yellow;
+    margin: 0.6%;
+}
+
+nav {
+
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .nav-link {
+        color: white;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+
+        &:hover {
+
+            color: $yellow;
+        }
+    }
+
+    .active {
+        color: $baseColor;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-size: 1.3em;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+
+        &:hover {
+            color: $yellow;
+        }
+    }
+
+
+}
+
+
+.container {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.card {
+    margin: 0.2%;
+
+}
+
+
+
+.card-img {
+    margin: 10%;
+    -webkit-box-shadow: 2px 2px 21px 5px #000000;
+    box-shadow: 2px 2px 21px 5px #000000;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+}

@@ -1,0 +1,25 @@
+._initialScreen {
+
+
+    p {
+        color: white;
+        text-shadow: 0px 0px 9px #050201;
+    }
+
+    .dc_button {
+        background-color: #0476F2;
+    }
+
+    .marvel_button {
+        background-color: #ED1D24;
+    }
+}
+
+@media (max-width: 500px) {
+    ._initialScreen {
+        background-size: cover;
+        background-position: center center;
+
+        background-attachment: fixed;
+    }
+}
